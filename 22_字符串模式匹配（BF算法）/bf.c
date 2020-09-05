@@ -4,7 +4,7 @@
  * 函数名称：BFIndex(ElemType *s, ElemType *t)
  * 功能描述：BF匹配算法主体
  * 传入参数：ElemType *s    传入的主串
- *          ElemType *t传入的模式串
+ *          ElemType *t    传入的模式串
  * 返回值：若匹配完成返回模式串在主串的那个位
  *        置（主串中模式串首所在的下标位置）
  *        若未匹配到则返回-1
@@ -51,7 +51,6 @@ int GetStringLen(char *s)
     {
         len++;
     }
-    
     return len;
 }
 /**************************************
@@ -67,3 +66,6 @@ int main()
     printf("字符串t在s中第一次出现的位置是%d",BFIndex(s,t)+1);
     return 0;
 }
+
+
+S
